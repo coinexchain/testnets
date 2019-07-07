@@ -1,5 +1,9 @@
 # Join Coinex DEX Chain Testnet Guide
 
+> Read [Read Doc and FAQ](https://github.com/coinexchain/dex-manual) before setup your validators
+
+
+
 ## Testnet Parameters
 - chain-id: coinexdex-test
 - seeds info:
@@ -196,7 +200,7 @@
         - 26656 needs to open to join p2p and consensus process
     - cetd's rpc port is on `TCP 26657`
         - 26657 do not needs open to world
-        
+
 ---
 ## Using cetcli to connect to remote fullnode
 
