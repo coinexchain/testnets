@@ -1,4 +1,4 @@
-# Join Coinex DEX Chain Testnet Guide
+# Coinex DEX Chain Testnet Guide
 
 > Read [Read Doc and FAQ](https://github.com/coinexchain/dex-manual) before setup your validators
 
