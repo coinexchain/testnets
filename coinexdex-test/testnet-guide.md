@@ -196,12 +196,13 @@
         - 26656 needs to open to join p2p and consensus process
     - cetd's rpc port is on `TCP 26657`
         - 26657 do not needs open to world
+        
 ---
 ## Using cetcli to connect to remote fullnode
 
 - By default `cetcli` will contact `localhost:26657`, you can configue it to send rpc to remote node
     > cetcli config node 111.222.111.222:26657 
-
+    - 111.222.111.222 is the example ip address of remote node
 
 ## How to send tokens to others
 - estimate gas amount
@@ -227,6 +228,7 @@
 ## Rest API
 - cetcli has a rest-server build-in, so you can query and send txs through REST API. start rest-server by:
     > nohup cetcli rest-server --chain-id=coinexdex-test  --laddr=tcp://localhost:1317  --node tcp://localhost:26657 --trust-node=false > cetcli.nohup.out &
+    - the OpenAPI will serve at:  http://localhost:1317/swagger
 
 
 ---
