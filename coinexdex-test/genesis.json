@@ -1,5 +1,5 @@
 {
-  "genesis_time": "2019-07-06T13:50:45.368935161Z",
+  "genesis_time": "2019-07-07T16:00:39.608505258Z",
   "chain_id": "coinexdex-test",
   "consensus_params": {
     "block": {
@@ -353,14 +353,14 @@
     "market": {
       "params": {
         "create_market_fee": "1000000000000",
-        "fixed_trade_fee": "0",
+        "fixed_trade_fee": "1000000",
         "market_min_expired_time": "604800",
         "gte_order_lifetime": "10000",
         "gte_order_feature_fee_by_blocks": "6000000",
         "max_executed_price_change_ratio": "25",
-        "market_fee_rate": "0",
-        "market_fee_min": "0",
-        "fee_for_zero_deal": "0"
+        "market_fee_rate": "10",
+        "market_fee_min": "1000000",
+        "fee_for_zero_deal": "1000000"
       },
       "orders": null,
       "market_infos": null
@@ -375,32 +375,32 @@
           {
             "start_height": "0",
             "end_height": "10512000",
-            "reward_per_block": "10",
-            "total_incentive": "105120000"
+            "reward_per_block": "1000000000",
+            "total_incentive": "10512000000000000"
           },
           {
             "start_height": "10512000",
             "end_height": "21024000",
-            "reward_per_block": "8",
-            "total_incentive": "84096000"
+            "reward_per_block": "800000000",
+            "total_incentive": "8409600000000000"
           },
           {
             "start_height": "21024000",
             "end_height": "31536000",
-            "reward_per_block": "6",
-            "total_incentive": "63072000"
+            "reward_per_block": "600000000",
+            "total_incentive": "6307200000000000"
           },
           {
             "start_height": "31536000",
             "end_height": "42048000",
-            "reward_per_block": "4",
-            "total_incentive": "42048000"
+            "reward_per_block": "400000000",
+            "total_incentive": "4204800000000000"
           },
           {
             "start_height": "42048000",
             "end_height": "52560000",
-            "reward_per_block": "2",
-            "total_incentive": "21024000"
+            "reward_per_block": "200000000",
+            "total_incentive": "2102400000000000"
           }
         ]
       }
@@ -414,7 +414,7 @@
               "type": "cosmos-sdk/MsgCreateValidator",
               "value": {
                 "description": {
-                  "moniker": "moniker_genesis",
+                  "moniker": "genesis_node",
                   "identity": "CF1FAAA36A78BE02",
                   "website": "www.coinex.org",
                   "details": "This is initial genesis node."
@@ -427,10 +427,10 @@
                 "min_self_delegation": "100000000000000",
                 "delegator_address": "coinex1cfg6fld5snhrmjdjh29msgqn4luf5ugqt96h0s",
                 "validator_address": "coinexvaloper1cfg6fld5snhrmjdjh29msgqn4luf5ugqs2elpy",
-                "pubkey": "coinexvalconspub1zcjduepqwqzsygss4aythakty0lmfcsxvcdpdy3xauqa6v6ycmktkshcupsqqduwff",
+                "pubkey": "coinexvalconspub1zcjduepqzz6lelr7txgqk8v5zv78pvrlv5tggs7utym95xe88m0xvgamtf2qhet3fn",
                 "value": {
                   "denom": "cet",
-                  "amount": "100000000000000"
+                  "amount": "500000000000000"
                 }
               }
             }
@@ -445,10 +445,10 @@
                 "type": "tendermint/PubKeySecp256k1",
                 "value": "A2iAW8Nm9gJAw0pee5+piD1EKkVG+FrMKQz1FfOFROOF"
               },
-              "signature": "PiVA8tUUq39qlwsdRW0dHP0IScMj5Ic6jd17V3VjsxNj3JLr1NRM3kaFqCmvLjIsfltYqy4766Qg7EBZ3ELbsQ=="
+              "signature": "3C2qUTkSSZnuGy1oISTKBWq3SwhP6zFbDnoMttA2wntz/GOQbLkpDms+qgsbDeO8dcR7J0TeQ73INXPTRpJUWQ=="
             }
           ],
-          "memo": "4a192f01e18c56e26775a17d2bc587a50668defc@3.220.87.188:26656"
+          "memo": "c88baaf5029567dfe9621b6d938cf9921240c961@3.220.87.188:26656"
         }
       }
     ]
