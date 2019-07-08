@@ -208,7 +208,7 @@
 
 ## Server Configurations
 - upper the ulimit
-  > ulimit -n 4096  
+  > ulimit -n 8192  
 
 - open ports
     - cetd will listen on `TCP 26656`
