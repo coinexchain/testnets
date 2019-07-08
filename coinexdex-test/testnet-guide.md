@@ -100,7 +100,7 @@
 
 - Send CreateValidator tx to become a validator
     > cetcli tx staking create-validator \\\
-    > --amount=100000000000000cet \\\
+    > --amount=1000000000000cet \\\
     --pubkey=coinexvalconspub1zcjduepqagvj8plupgura2vt08xlm3tpur5u0vw89cw8ut9j8a55xq2jetgswccuwt \\\
     --moniker=MyNodeName \\\
     --identity=CF1FAAA36A78BE02 \\\
@@ -108,7 +108,7 @@
     --commission-rate=0.05 \\\
     --commission-max-rate=0.2 \\\
     --commission-max-change-rate=0.01 \\\
-    --min-self-delegation=100000000000000 \\\
+    --min-self-delegation=1000000000000 \\\
     --from $(cetcli keys show fullnode_user1 -a) \\\
     --gas 122295 \\\
     --fees 2445900cet
@@ -239,6 +239,20 @@
     > nohup cetcli rest-server --chain-id=coinexdex-test  --laddr=tcp://localhost:1317  --node tcp://localhost:26657 --trust-node=false > cetcli.nohup.out &
     - the OpenAPI will serve at:  http://localhost:1317/swagger
 
+
+---
+## About testnet parameters
+> For better testing the parameter in testnet are different from mainnet.
+
+```
+	UnbondingTime = time.Second * 60 * 60 = 1 hour
+	Validator's MinSelfDelegation = 10000e8cet
+	Proposal's MinDeposit Amount = 1000e8cet
+	Proposal's MaxDepositPeriod = 86400 * time.Second
+	IssueTokenFee = 1000e8cet
+	IssueRareTokenFee = 10000e8cet
+	CreateTradePairFee = 10000e8cet
+```
 
 ---
 ## Community and Docs
