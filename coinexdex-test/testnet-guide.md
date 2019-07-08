@@ -35,10 +35,11 @@
 
 
 - Download binary and genesis.json 
-    > curl https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test/linux_x86_64/cetcli > cetcli
-    > curl https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test/linux_x86_64/cetd > cetd
-    > curl https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test/genesis.json > genesis.json
-    
+    ```
+    curl https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test/linux_x86_64/cetcli > cetcli
+    curl https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test/linux_x86_64/cetd > cetd
+    curl https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test/genesis.json > genesis.json
+    ```
 
 ## Init Fullnode
 - Init fullnode data dir: 
