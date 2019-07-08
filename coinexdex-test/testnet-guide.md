@@ -13,7 +13,7 @@
 - chain-id: coinexdex-test
 - seeds info:
     ```
-    seeds = "3114c03fce4e1197d7349f620b137c768dff476f@35.163.254.168:26656,3e358dd768523a31c1c76c456ce320c9f9311c02@52.9.48.13:26656,159106d7999d886eb8be67c257115dbd006a8579@54.183.154.68:26656"
+    seeds = "84aa1158fcc35b236a549ed5ccdec64dc2ef7913@52.27.129.48:26656,b075fe9dba4f49ce361c2401b73aefebf51d69b3@54.193.91.79:26656"
     ```
 
 ## Prepare
@@ -49,7 +49,7 @@
 - Set seeds info in `~/.cetd/config/config.toml`
     - replace default `seeds = ""` with
         ```
-        seeds = "3114c03fce4e1197d7349f620b137c768dff476f@35.163.254.168:26656,3e358dd768523a31c1c76c456ce320c9f9311c02@52.9.48.13:26656,159106d7999d886eb8be67c257115dbd006a8579@54.183.154.68:26656"
+        seeds = "84aa1158fcc35b236a549ed5ccdec64dc2ef7913@52.27.129.48:26656,b075fe9dba4f49ce361c2401b73aefebf51d69b3@54.193.91.79:26656"
         ```
 
 - Start your node
