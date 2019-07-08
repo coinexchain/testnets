@@ -1,7 +1,19 @@
 # Coinex DEX Chain Testnet Guide
 
-> Read [Doc and FAQ](https://github.com/coinexchain/dex-manual) before setup your validators
+<br>
+<br>
+<br>
+<br>
 
+- [>>>>>Join developer channel<<<<<](https://join.slack.com/t/coinexchain/shared_invite/enQtNjc2NjI1NTU3MDI0LTQzNWZkMTdlMzlhNTUxOWYwNzJjNWNjNDI5OGMxMmQxNDcxZWVlOGU1MjBiOGIyNWQ0YzRjYTE2ODU1MWMxNWU)
+
+> Please read [Doc and FAQ](https://github.com/coinexchain/dex-manual) before setup your validators
+
+
+<br>
+<br>
+<br>
+<br>
 
 
 ## Testnet Parameters
