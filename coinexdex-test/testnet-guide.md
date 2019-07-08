@@ -17,19 +17,28 @@
     ```
 
 ## Prepare
-- Download binary and genesis.json 
-    > git clone git@github.com:coinexchain/testnets.git
-
-    > cd testnets
-
 - About files:
+  - Genesis Configuration will hosted in this same repo: https://github.com/coinexchain/testnets
+  
     ```
-    testnets/coinexdex-test/
-    ├── genesis.json           <-- genesis configuration 
-    └── linux_x86_64
-        ├── cetcli             <-- rpc client
-        └── cetd               <-- fullnode daemon
+    └── coinexdex-test
+	    ├── genesis.json        <-- Genesis Configuration 
+	    ├── linux_x86_64
+	    │   ├── cetcli          <-- RPC Client
+	    │   └── cetd            <-- FullNode Daemon
+	    ├── mac_osx
+	    │   ├── cetcli
+	    │   └── cetd
+	    ├── md5.sum
+	    └── testnet-guide.md
     ```
+
+
+- Download binary and genesis.json 
+    > curl https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test/linux_x86_64/cetcli > cetcli
+    > curl https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test/linux_x86_64/cetd > cetd
+    > curl https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test/genesis.json > genesis.json
+    
 
 ## Init Fullnode
 - Init fullnode data dir: 
