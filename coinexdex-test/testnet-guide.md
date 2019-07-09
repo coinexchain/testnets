@@ -6,6 +6,7 @@
 
 > Please read [Doc and FAQ](https://github.com/coinexchain/dex-manual) before setup your validators
 
+
 <br>
 
 
@@ -88,7 +89,7 @@
         ```
 
 - Get some testnet cet for your address:
-    > get help from [developer channel](https://join.slack.com/t/coinexchain/shared_invite/enQtNjc2NjI1NTU3MDI0LTQzNWZkMTdlMzlhNTUxOWYwNzJjNWNjNDI5OGMxMmQxNDcxZWVlOGU1MjBiOGIyNWQ0YzRjYTE2ODU1MWMxNWU)
+    > Get testnet CET from [testnet faucet](http://54.183.11.91/)
 
     - query account status:
         > cetcli q account $(cetcli keys show fullnode_user1 -a) --chain-id=coinexdex-test
