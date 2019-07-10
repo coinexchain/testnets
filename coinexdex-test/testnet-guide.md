@@ -136,7 +136,7 @@
         --details string                      The validator's (optional) details
         --from string                         Name or address of private key with which to sign
         --gas string                          gas limit; set to "auto" to calculate required gas automatically
-        --identity string                     The optional identity signature (ex. UPort or Keybase)
+        --identity string                     The optional identity signature (ex. Keybase)
         --memo string                         Memo to send along with transaction
         --min-self-delegation string          The minimum self delegation required on the validator
         --moniker string                      The validator's name
