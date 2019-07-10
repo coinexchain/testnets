@@ -89,7 +89,7 @@
         ```
 
 - Get some testnet cet for your address:
-    - Get testnet CET from [>>>>>testnet faucet<<<<<](https://faucet.coinex.org)
+    - Get testnet CET from [>>>>>testnet faucet<<<<<](http://faucet.coinex.org)
 
     - query account status:
         > cetcli q account $(cetcli keys show fullnode_user1 -a) --chain-id=coinexdex-test
