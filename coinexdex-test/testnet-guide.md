@@ -2,9 +2,17 @@
 
 <br>
 
+---
+## Community and Docs
+
+
 - [>>>>>Join developer channel<<<<<](https://join.slack.com/t/coinexchain/shared_invite/enQtNjc2NjI1NTU3MDI0LTQzNWZkMTdlMzlhNTUxOWYwNzJjNWNjNDI5OGMxMmQxNDcxZWVlOGU1MjBiOGIyNWQ0YzRjYTE2ODU1MWMxNWU)
 
-> Please read [Doc and FAQ](https://github.com/coinexchain/dex-manual) before setup your validators
+- [Docs](https://github.com/coinexchain/dex-manual)
+- [FAQ](https://github.com/coinexchain/dex-manual/blob/01222ef03f4c94231f851ccd3d82e20cb899bb61/docs/02_faq.md)
+  - Please read Doc and FAQ before setup your validators
+	
+- [REST API Doc](https://dex-api.coinex.org/swagger/)
 
 
 <br>
@@ -264,10 +272,3 @@
 	IssueRareTokenFee = 10000e8cet
 	CreateTradePairFee = 10000e8cet
 ```
-
----
-## Community and Docs
-- [Join developer channel](https://join.slack.com/t/coinexchain/shared_invite/enQtNjc2NjI1NTU3MDI0LTQzNWZkMTdlMzlhNTUxOWYwNzJjNWNjNDI5OGMxMmQxNDcxZWVlOGU1MjBiOGIyNWQ0YzRjYTE2ODU1MWMxNWU)
-
-- [Docs](https://github.com/coinexchain/dex-manual)
-- [FAQ](https://github.com/coinexchain/dex-manual/blob/01222ef03f4c94231f851ccd3d82e20cb899bb61/docs/02_faq.md)
