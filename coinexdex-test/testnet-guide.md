@@ -88,7 +88,7 @@
         ```
         cetcli keys add fullnode_user1
         ```
-    - notes: **your mnemonic will print out by this command, store it safely**
+    - notes: **your mnemonic passphrase will print out by this command, store it safely**
     - notes: your private keystore will be in folder: `~/.cetcli`
 
     - using following commands to get your address
