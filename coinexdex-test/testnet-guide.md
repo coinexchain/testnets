@@ -198,6 +198,12 @@
 - Do I in vaidator set?
     > ./cetcli q tendermint-validator-set --chain-id=coinexdex-test | grep $(./cetd tendermint show-validator) && echo "in validator set" || echo "not in validator set"
 
+
+- How to unjail my validator?
+	```
+	cetcli tx slashing unjail --from fullnode_user1 --chain-id=coinexdex-test --gas=60000  --fees=1200000cet
+	```
+
 ---
 ## Diagnosis
 
