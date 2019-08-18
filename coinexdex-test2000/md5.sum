@@ -1,0 +1,6 @@
+655888c5e432d1eadf06f7276fdf0de6  ./genesis.json
+3e75a458b5f09044488ad8c0bbec7037  ./linux_x86_64/cetcli
+023253235535880d9b3869410b14a46d  ./linux_x86_64/cetd
+b041d65e7476a7fb0442c07f02afa494  ./mac_osx/cetcli
+43f77e5d5ad60b3bea79939965fe71de  ./mac_osx/cetd
+28d164d7dfbfb1bae0caf5aebbbd60f1  ./testnet-guide.md
