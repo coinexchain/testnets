@@ -9,4 +9,4 @@
 - faucet:            http://3.105.193.191/
 - rest-api:          http://3.105.193.191:1317/swagger/
 - rpc:               cetcli config node 3.105.193.191:26657
-- testnet browser    http://54.66.152.231
+- testnet explorer   http://54.66.152.231
