@@ -1,0 +1,6 @@
+MD5 (./genesis.json) = 8bf1051c38cb9d424b7c75960cac6251
+MD5 (./README.md) = c5e3aa4229ca0ff700bbfb909bad84ed
+MD5 (./linux_x86_64/cetcli) = 2b57936587df59412a80c271218e69d5
+MD5 (./linux_x86_64/cetd) = f2cf41287b62c0966c0efcb12afeb26a
+MD5 (./mac_osx/cetcli) = 3ff52c8570b05ca803b1cfadd2cffe7f
+MD5 (./mac_osx/cetd) = c01b4da3fb3c8c972e3a98176de8c20a
