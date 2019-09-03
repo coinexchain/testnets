@@ -5,8 +5,10 @@
 # parameters
 
 - chain-id:          `coinexdex-test2001`
-- seed              : 46167306fce0edfd9f323dfe91562a3a14152654@18.179.131.246:26656,397b8384cdbb2f438572992711780f47a8825ea9@3.114.8.170:26656
-- faucet            : http://3.114.69.63/
-- rest-api          : http://3.114.69.63:1317/swagger/
-- rpc               : cetcli config node 3.114.69.63:26657
-- testnet browser   : to_be_setup
+
+- seed              : 14ebddc99915402f434488558f3075f4f2caea2f@18.182.208.39:26656,abd7ac155075b0b06c08c34c979d8c21a4d39f40@3.114.70.255:26656
+- faucet            : http://3.112.186.151/
+  - faucet addr: cettest1nycdkmr65katwsqwhqx8yrk8ywl9hj4xnncnzw
+- rest-api          : http://3.112.186.151:1317/swagger/
+- rpc               : cetcli config node 3.112.186.151:26657
+- testnet browser   : (to be setup)52.192.125.122
