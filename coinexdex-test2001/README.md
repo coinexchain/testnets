@@ -11,4 +11,4 @@
   - faucet addr: cettest1nycdkmr65katwsqwhqx8yrk8ywl9hj4xnncnzw
 - rest-api          : http://3.112.186.151:1317/swagger/
 - rpc               : cetcli config node 3.112.186.151:26657
-- testnet browser   : (to be setup)52.192.125.122
+- testnet browser   : 52.192.125.122
