@@ -9,4 +9,4 @@
 - rest-api          : http://18.189.200.85:1317/swagger/
                     : http://3.19.184.4:1317/swagger/
 - rpc               : cetcli config node 18.189.200.85:26657
-- testnet browser   : 18.140.213.163  (will deploy soon)
+- testnet browser   : http://18.140.213.163
