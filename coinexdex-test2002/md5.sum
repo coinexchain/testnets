@@ -1,6 +1,5 @@
+7593ad7e4064dd42bae4e036774e4f6d  ./cetd.service.example
 2e552d030d49ddc34c51da751c8f1f87  ./genesis.json
-f9c30226017279c739d4c3b431757d80  ./linux_x86_64/cetcli
-62217c52b2f3a4beacce3a520cf4d04d  ./linux_x86_64/cetd
-0b5953b58c7b059c22fbea68841d420c  ./mac_osx/cetcli
-3a7d674e2b63616e2dfb6ced3b250a11  ./mac_osx/cetd
-0b67b36cf2296eec27879910bffcfcee  ./README.md
+07b1362eeb41445446ea42e4600ff715  ./linux_x86_64/cetcli
+0e47d7daf7afda0681c7da6bc5fc1a34  ./linux_x86_64/cetd
+55f1aa8c2a0429e8c4fe8cc7ed7ae7b9  ./README.md
