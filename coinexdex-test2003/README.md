@@ -1,6 +1,6 @@
 # How to setup coinexdex-test2003
 
-- please refer to [testnet-guide](https://github.com/coinexchain/testnets/blob/master/coinexdex-test/testnet-guide.md) but with following parameters:
+- please refer to [setup-guide](https://github.com/coinexchain/devops) but with following parameters:
 
 # parameters
 ```shell
