@@ -18,5 +18,5 @@ export FAUCET_ADDR=cettest17lk6szw330e25xpz7w60aljcmw27g3aum63ax8
 export REST_API=http://18.140.188.15:1317/swagger/
 export REST_API=http://18.140.191.248:1317/swagger/
 export TESTNET_RPC_URL=18.140.188.15:26657
-export TESTNET_EXPLORER_URL=http://18.139.166.177
+export TESTNET_EXPLORER_URL=http://18.140.203.223/
 ```
