@@ -1,3 +1,6 @@
+# coinexdex-test2002
+status: deprecated and offline
+
 # How to setup coinexdex-test2002
 
 - please refer to [testnet-guide](https://github.com/coinexchain/testnets/blob/master/coinexdex-test/testnet-guide.md) but with following parameters:
