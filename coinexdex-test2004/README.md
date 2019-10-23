@@ -17,5 +17,5 @@ export FAUCET_URL=http://18.190.80.148
 export REST_API=http://18.190.80.148:1317/swagger/
 export REST_API=http://3.132.21.89:1317/swagger/
 export TESTNET_RPC_URL=18.190.80.148:26657
-export TESTNET_EXPLORER_URL=http://
+export TESTNET_EXPLORER_URL=http://47.244.44.205/
 ```
