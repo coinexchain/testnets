@@ -5,7 +5,7 @@
 # parameters
 ```shell
 export CHAIN_ID=coinexdex-test2005
-export CHAIN_SEEDS=8a378459b49ddcf2931ba968dc214621a48d22b3@47.75.208.217:fe3b227eedd5bb97cd72ff40df31050434f7e883@47.52.106.214:26656
+export CHAIN_SEEDS=8a378459b49ddcf2931ba968dc214621a48d22b3@47.75.208.217,fe3b227eedd5bb97cd72ff40df31050434f7e883@47.52.106.214:26656
 export ARTIFACTS_BASE_URL=https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test2005
 export CETD_URL=${ARTIFACTS_BASE_URL}/linux_x86_64/cetd
 export CETCLI_URL=${ARTIFACTS_BASE_URL}/linux_x86_64/cetcli
