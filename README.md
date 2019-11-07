@@ -1,5 +1,5 @@
 
-- The latest testnet chain-id is [`coinexdex-test2004`](https://github.com/coinexchain/testnets/tree/master/coinexdex-test2004)
+- The latest testnet chain-id is [`coinexdex-test2005`](https://github.com/coinexchain/testnets/tree/master/coinexdex-test2005)
   - [Testnet explorer](https://testnet.coinex.org/)
   - [Testnet Faucet](http://18.190.80.148/)
   - [Guide to join testnet](https://github.com/coinexchain/testnets/tree/master/coinexdex-test/testnet-guide.md)
