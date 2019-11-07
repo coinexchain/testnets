@@ -1,3 +1,5 @@
+Offline and Deprecated!!!
+
 # How to setup coinexdex-test2005
 
 - please refer to [setup-guide](https://github.com/coinexchain/devops) but with following parameters:
