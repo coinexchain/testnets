@@ -11,7 +11,7 @@ export CETD_URL=${ARTIFACTS_BASE_URL}/linux_x86_64/cetd
 export CETCLI_URL=${ARTIFACTS_BASE_URL}/linux_x86_64/cetcli
 export GENESIS_URL=${ARTIFACTS_BASE_URL}/genesis.json
 export CETD_SERVICE_CONF_URL=${ARTIFACTS_BASE_URL}/cetd.service.example
-export MD5_CHECKSUM_URL=${ARTIFACTS_BASE_URL}/md5.sum
+export SHA256SUM_CHECKSUM_URL=${ARTIFACTS_BASE_URL}/sha256.sum
 
 export FAUCET_URL=http://18.228.254.51/
 export REST_API=http://18.228.254.51:1317/swagger/
