@@ -1,5 +1,5 @@
-NOTES: should add ` --minimum-gas-prices=20.0cet` in the `cetd start` command
-example: ${RUN_DIR}/cetd start --home=${RUN_DIR}/.cetd `--minimum-gas-prices=20.0cet`
+NOTES: <br> should add ` --minimum-gas-prices=20.0cet` in the `cetd start` command
+example: ${RUN_DIR}/cetd start --home=${RUN_DIR}/.cetd `--minimum-gas-prices=20.0cet` <br>
 
 
 - The latest testnet chain-id is [`coinexdex-test2006`](https://github.com/coinexchain/testnets/tree/master/coinexdex-test2006)
