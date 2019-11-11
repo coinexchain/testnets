@@ -9,7 +9,7 @@ Environment=GOTRACEBACK=crash
 WorkingDirectory=/home/ubuntu
 User=ubuntu
 Group=ubuntu
-ExecStart=/home/ubuntu/cetd start --minimum-gas-prices=20.0cet
+ExecStart=/home/ubuntu/cetd start
 LimitNOFILE=655360
 LimitCORE=infinity
 
