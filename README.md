@@ -1,4 +1,4 @@
-- NOTES: <br> should add ` --minimum-gas-prices=20.0cet` in the `cetd start` command
+- NOTES: <br> should add ` --minimum-gas-prices=20.0cet` in the `cetd start` command, both in validator and sentry nodes
   - example: <br> 
   > ${RUN_DIR}/cetd start --home=${RUN_DIR}/.cetd `--minimum-gas-prices=20.0cet` <br>
 
