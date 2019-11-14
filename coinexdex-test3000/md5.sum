@@ -1,5 +1,4 @@
-7593ad7e4064dd42bae4e036774e4f6d  ./cetd.service.example
-03c15b7d6eaf1c3bfd6edba9f4fc5da0  ./genesis.json
-6aee7b4f4b18df1cd52f394e384dd9c1  ./linux_x86_64/cetcli
-ee34e807d0279abb7f0599f92d558953  ./linux_x86_64/cetd
-5ad4b1fc3b74fd2c1ca573b544e5fc2c  ./README.md
+8fed5ae2f167dc7d55d79368ffcac25acb735ec7df17631a7bc2d163c2dd390d  ./cetd.service.example
+67bc615265555688958bfa4eb6e1b1ad7f8464f007cd0964eeaeddbf5ca0dbff  ./genesis.json
+33ccdbc18fe18443ad1cd3f307b7a51fb8ea4033e536cdc54f88c44d3bd1b29a  ./linux_x86_64/cetcli
+0014ccea81b954c5a5b2fcb56bec765e482ea925a3e2236c536e239bbd8751a9  ./linux_x86_64/cetd
