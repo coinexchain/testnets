@@ -13,7 +13,7 @@ export GENESIS_URL=${ARTIFACTS_BASE_URL}/genesis.json
 export CETD_SERVICE_CONF_URL=${ARTIFACTS_BASE_URL}/cetd.service.example
 export MD5_CHECKSUM_URL=${ARTIFACTS_BASE_URL}/md5.sum
 
-export FAUCET_URL=http://18.190.80.148
+export FAUCET_URL=http://faucet.coinex.org/
 export REST_API=http://18.190.80.148:1317/swagger/
 export REST_API=http://3.132.21.89:1317/swagger/
 export TESTNET_RPC_URL=18.190.80.148:26657
