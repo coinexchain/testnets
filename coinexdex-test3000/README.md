@@ -1,4 +1,4 @@
-# How to setup coinexdex-test2004
+# How to setup coinexdex-test3000
 
 - please refer to [setup-guide](https://github.com/coinexchain/devops) but with following parameters:
 
