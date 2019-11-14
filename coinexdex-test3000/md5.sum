@@ -1,0 +1,5 @@
+7593ad7e4064dd42bae4e036774e4f6d  ./cetd.service.example
+03c15b7d6eaf1c3bfd6edba9f4fc5da0  ./genesis.json
+6aee7b4f4b18df1cd52f394e384dd9c1  ./linux_x86_64/cetcli
+ee34e807d0279abb7f0599f92d558953  ./linux_x86_64/cetd
+5ad4b1fc3b74fd2c1ca573b544e5fc2c  ./README.md
