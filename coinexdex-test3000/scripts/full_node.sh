@@ -8,7 +8,7 @@ sudo apt update
 sudo apt install ansible -y
 
 export CHAIN_ID=coinexdex-test3000
-export CHAIN_SEEDS=f660dae8095097d67f29d6e0042edd34bed030b2@3.134.208.169:26656
+export CHAIN_SEEDS=e5516ddccfa5361ff1482422cebaefbac0ba6995@3.134.208.169:26656
 export ARTIFACTS_BASE_URL=https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test3000
 export CETD_URL=${ARTIFACTS_BASE_URL}/linux_x86_64/cetd
 export CETCLI_URL=${ARTIFACTS_BASE_URL}/linux_x86_64/cetcli
