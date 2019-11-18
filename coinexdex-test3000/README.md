@@ -17,9 +17,6 @@ export FAUCET_URL=http://faucet.coinex.org/
 export REST_API=
 export REST_API=
 export TESTNET_RPC_URL=3.13.170.79:26657
-export TESTNET_EXPLORER_URL=
+export TESTNET_EXPLORER_URL=https://testnet.coinex.org/
 ```
 
-# scripts
-
-If the running node is just as a full node, you can run the [script](scripts/full_node.sh) directly
