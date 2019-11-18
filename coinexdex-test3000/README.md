@@ -14,8 +14,7 @@ export CETD_SERVICE_CONF_URL=${ARTIFACTS_BASE_URL}/cetd.service.example
 export MD5_CHECKSUM_URL=${ARTIFACTS_BASE_URL}/sha256.sum
 
 export FAUCET_URL=http://faucet.coinex.org/
-export REST_API=
-export REST_API=
+export REST_API=http://3.13.170.79:1317/swagger/
 export TESTNET_RPC_URL=3.13.170.79:26657
 export TESTNET_EXPLORER_URL=https://testnet.coinex.org/
 ```
