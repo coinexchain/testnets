@@ -13,6 +13,7 @@
 > export CETCLI_URL=`${ARTIFACTS_BASE_URL}/linux_x86_64/cetcli` <br/>
 > export GENESIS_URL=`${ARTIFACTS_BASE_URL}/genesis.json` <br/>
 > export SHA256_CHECKSUM_URL=`${ARTIFACTS_BASE_URL}/sha256.sum` <br/>
+> export CETD_SERVICE_CONF_URL=${ARTIFACTS_BASE_URL}/cetd.service.example <br/>
 > export RUN_DIR=test-node <br/>
 >  <br/> 
 > <br/>
@@ -22,11 +23,14 @@
 > curl `${CETD_URL}` >  cetd <br/>
 > curl `${CETCLI_URL}` > cetcli <br/>
 > curl `${GENESIS_URL}` > genesis.json <br/>
+> curl ${CETD_SERVICE_CONF_URL} > cetd.service.example <br/>
 > chmod a+x cetd cetcli <br/>
+
+
 
 ## 创建新的数据目录
 
-1. `cetd init ViaWallet --chain-id=coinexdex-test3100 --home=.cetd`
+1. `./cetd init ViaWallet --chain-id=coinexdex-test3100 --home=.cetd`
 2. 拷贝下载的genesis.json 到数据目录: `cp genesis.json .cetd/config`
 3. 如果是验证者节点：
 
