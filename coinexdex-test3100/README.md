@@ -6,22 +6,23 @@
 
 
 ## 下载新版本
-export CHAIN_ID=coinexdex-test3100
-export CHAIN_SEEDS=597a40d15ca5e6dc8fb0c4a4a098b7b96320964e@3.134.208.169:26656
-export ARTIFACTS_BASE_URL=`https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test3100`
-export CETD_URL=`${ARTIFACTS_BASE_URL}/linux_x86_64/cetd`
-export CETCLI_URL=`${ARTIFACTS_BASE_URL}/linux_x86_64/cetcli`
-export GENESIS_URL=`${ARTIFACTS_BASE_URL}/genesis.json`
-export SHA256_CHECKSUM_URL=`${ARTIFACTS_BASE_URL}/sha256.sum`
-
-
-export RUN_DIR=test-node
-mkdir `${RUN_DIR}`
-cd `${RUN_DIR}`
-curl `${CETD_URL}` > cetd
-curl `${CETCLI_URL}` > cetcli
-curl `${GENESIS_URL}` > genesis.json
-chmod a+x cetd cetcli
+> export CHAIN_ID=coinexdex-test3100
+> export CHAIN_SEEDS=597a40d15ca5e6dc8fb0c4a4a098b7b96320964e@3.134.208.169:26656  <br/>
+> export ARTIFACTS_BASE_URL=`https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test3100` <br/>
+> export CETD_URL=`${ARTIFACTS_BASE_URL}/linux_x86_64/cetd` <br/>
+> export CETCLI_URL=`${ARTIFACTS_BASE_URL}/linux_x86_64/cetcli` <br/>
+> export GENESIS_URL=`${ARTIFACTS_BASE_URL}/genesis.json` <br/>
+> export SHA256_CHECKSUM_URL=`${ARTIFACTS_BASE_URL}/sha256.sum` <br/>
+> export RUN_DIR=test-node <br/>
+>  <br/> 
+> <br/>
+> <br/>
+> mkdir `${RUN_DIR}` <br/>
+> cd `${RUN_DIR}` <br/>
+> curl `${CETD_URL}` >  cetd <br/>
+> curl `${CETCLI_URL}` > cetcli <br/>
+> curl `${GENESIS_URL}` > genesis.json <br/>
+> chmod a+x cetd cetcli <br/>
 
 ## 创建新的数据目录
 
@@ -34,13 +35,13 @@ chmod a+x cetd cetcli
     
 ## 启动新节点    
 
-> ansible localhost -m ini_file -a "path=${RUN_DIR}/cetd.service.example section=Service option=ExecStart value='${RUN_DIR}/cetd start --home=${RUN_DIR}/.cetd --minimum-gas-prices=20.0cet' backup=true"
-> sudo mv ${RUN_DIR}/cetd.service.example /etc/systemd/system/cetd.service
-> sudo ln -s /etc/systemd/system/cetd.service /etc/systemd/system/multi-user.target.wants/cetd.service
-> sudo systemctl daemon-reload
-> sudo systemctl status cetd
-> sudo systemctl start cetd
-> sudo systemctl status cetd
+> ansible localhost -m ini_file -a "path=${RUN_DIR}/cetd.service.example section=Service option=ExecStart value='${RUN_DIR}/cetd start --home=${RUN_DIR}/.cetd --minimum-gas-prices=20.0cet' backup=true"<br>
+> sudo mv ${RUN_DIR}/cetd.service.example /etc/systemd/system/cetd.service <br>
+> sudo ln -s /etc/systemd/system/cetd.service /etc/systemd/system/multi-user.target.wants/cetd.service <br>
+> sudo systemctl daemon-reload  <br>
+> sudo systemctl status cetd  <br>
+> sudo systemctl start cetd  <br>
+> sudo systemctl status cetd  <br>
 
 ## 新链高度
 
