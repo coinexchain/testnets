@@ -14,7 +14,7 @@
 > export GENESIS_URL=`${ARTIFACTS_BASE_URL}/genesis.json` <br/>
 > export SHA256_CHECKSUM_URL=`${ARTIFACTS_BASE_URL}/sha256.sum` <br/>
 > export CETD_SERVICE_CONF_URL=${ARTIFACTS_BASE_URL}/cetd.service.example <br/>
-> export RUN_DIR=test-node <br/>
+> export RUN_DIR=~~/home/ubuntu/test-node~~ <br/>
 >  <br/> 
 > <br/>
 > <br/>
@@ -35,7 +35,11 @@
 3. 如果是验证者节点：
 
     *   拷贝原节点数据目录的`priv_validator_key.json` 至新数据目录，该文件所在的位置：`.cetd/config`
-    
+4. 配置节点seeds
+
+   *    `ansible localhost -m ini_file -a "path=${RUN_DIR}/.cetd/config/config.toml section=p2p option=seeds value='\"${CHAIN_SEEDS}\"' backup=true"`
+
+
     
 ## 启动新节点    
 
