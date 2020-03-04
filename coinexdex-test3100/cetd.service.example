@@ -1,0 +1,17 @@
+# Ansible managed
+
+[Unit]
+Description="Service for cetd"
+[Service]
+RestartSec=30
+Restart=always
+Environment=GOTRACEBACK=crash
+WorkingDirectory=/home/ubuntu
+User=ubuntu
+Group=ubuntu
+ExecStart=/home/ubuntu/cetd start
+LimitNOFILE=655360
+LimitCORE=infinity
+
+[Install]
+WantedBy=multi-user.target
