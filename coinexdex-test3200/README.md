@@ -30,7 +30,7 @@
 
 ## 创建新的数据目录
 
-1. `./cetd init ViaWallet --chain-id=coinexdex-test3100 --home=.cetd`
+1. `./cetd init ViaWallet --chain-id=coinexdex-test3200 --home=.cetd`
 2. 拷贝下载的genesis.json 到数据目录: `cp genesis.json .cetd/config`
 3. 如果是验证者节点：
 
