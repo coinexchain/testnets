@@ -7,7 +7,7 @@
 
 ## 下载新版本
 > export CHAIN_ID=coinexdex2 <br/>
-> export CHAIN_SEEDS=1198ffc62ef7b4f0395871467d1644bb65c7b348@3.134.208.169:26656,3a0ba4fbbda5ae22e8e66b10965302b93a2d08cb@3.20.163.168:26656  <br/>
+> export CHAIN_SEEDS=7b650cc37c918a51246c4608f31e0a38aedfa122@18.144.85.87:26656  <br/>
 > export ARTIFACTS_BASE_URL=`https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test-upgrade` <br/>
 > export CETD_URL=`${ARTIFACTS_BASE_URL}/linux_x86_64/cetd` <br/>
 > export CETCLI_URL=`${ARTIFACTS_BASE_URL}/linux_x86_64/cetcli` <br/>
