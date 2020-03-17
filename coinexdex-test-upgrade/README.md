@@ -6,7 +6,7 @@
 
 
 ## 下载新版本
-> export CHAIN_ID=coinexdex-test-upgrade <br/>
+> export CHAIN_ID=coinexdex2 <br/>
 > export CHAIN_SEEDS=1198ffc62ef7b4f0395871467d1644bb65c7b348@3.134.208.169:26656,3a0ba4fbbda5ae22e8e66b10965302b93a2d08cb@3.20.163.168:26656  <br/>
 > export ARTIFACTS_BASE_URL=`https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test-upgrade` <br/>
 > export CETD_URL=`${ARTIFACTS_BASE_URL}/linux_x86_64/cetd` <br/>
@@ -30,7 +30,7 @@
 
 ## 创建新的数据目录
 
-1. `./cetd init ViaWallet --chain-id=coinexdex-test3200 --home=.cetd`
+1. `./cetd init moniker --chain-id=coinexdex2 --home=.cetd`
 2. 拷贝下载的genesis.json 到数据目录: `cp genesis.json .cetd/config`
 3. 如果是验证者节点：
 
