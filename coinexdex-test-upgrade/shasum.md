@@ -2,4 +2,4 @@ d8daee0cdf5b42cf0448dc7bc4f294ed659ae92f  linux_x86_64/cetcli
 
 44d355a1e77dffcd69f4ef145c9bf66f294268f2  linux_x86_64/cetd
 
-8e3e158da7bd2f66bfa45856f7cdee8716bfec77  genesis.json
+d852ee5acf4032562fdddd7af2abc7b7e9fddf39  genesis.json
