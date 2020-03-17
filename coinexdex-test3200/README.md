@@ -38,6 +38,7 @@
 4. 配置节点seeds
 
    *    `ansible localhost -m ini_file -a "path=${RUN_DIR}/.cetd/config/config.toml section=p2p option=seeds value='\"${CHAIN_SEEDS}\"' backup=true"`
+   *   [ansible安装文档](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-ubuntu)
 
 
     
@@ -54,3 +55,5 @@
 ## 新链高度
 
 新链继续延续旧链的高度，第一个块从**4423629**开始。
+
+
