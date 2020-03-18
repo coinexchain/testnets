@@ -30,11 +30,11 @@
 
 ## 创建新的数据目录
 
-1. `./cetd init moniker --chain-id=coinexdex2 --home=.cetd`
-2. 拷贝下载的genesis.json 到数据目录: `cp genesis.json .cetd/config`
+1. `./cetd init moniker --chain-id=coinexdex2 --home=${RUN_DIR}/.cetd`
+2. 拷贝下载的genesis.json 到数据目录: `cp genesis.json ${RUN_DIR}/.cetd/config`
 3. 如果是验证者节点：
 
-    *   拷贝原节点数据目录的`priv_validator_key.json` 至新数据目录，该文件所在的位置：`.cetd/config`
+    *   拷贝原节点数据目录的`priv_validator_key.json` 至新数据目录，该文件所在的位置：`${RUN_DIR}/.cetd/config`
 4. 配置节点seeds
 
    *    `ansible localhost -m ini_file -a "path=${RUN_DIR}/.cetd/config/config.toml section=p2p option=seeds value='\"${CHAIN_SEEDS}\"' backup=true"`
