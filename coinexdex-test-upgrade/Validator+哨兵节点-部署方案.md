@@ -17,8 +17,8 @@
 		* 在validator的机器上，获取它的seed: `${RUN_DIR}/cetd tendermint show-node-id --home=${RUN_DIR}/.cetd`
 	*  进行如下配置
 		> 	export RUN_DIR=~~node~~ <br/>
-		>	export VALIDATOR_ID=~~ 234d17ad72695c3139953c4e75fc0636121a3b@3.134.44.201:26656~~ <br/>
-		>	export CHAIN_SEEDS=~~ 61e905c822f3ed1ae70982cf9ea61453e15104c5@47.75.208.217:26656,8318598ad2a9d47bd9f9a287b329ae23a9201cb3@47.52.106.214:26656~~ <br/>
+		>	export VALIDATOR_ID=~~234d17ad72695c3139953c4e75fc0636121a3b@3.134.44.201:26656~~ <br/>
+		>	export CHAIN_SEEDS=~~61e905c822f3ed1ae70982cf9ea61453e15104c5@47.75.208.217:26656,8318598ad2a9d47bd9f9a287b329ae23a9201cb3@47.52.106.214:26656~~ <br/>
 		> <br/>
 		> <br/>
 		> <br/>
@@ -50,7 +50,7 @@
 		* 在哨兵的机器上，获取它的seed: `${RUN_DIR}/cetd tendermint show-node-id --home=${RUN_DIR}/.cetd` 
 	*  进行如下配置
 		> 	export RUN_DIR=~~node~~ <br/>
-		>	export SENTRY_NODE_IDS=~~ 234d17ad72695c3139953c4e75fc0636121a3b@3.134.44.201:26656,1231e234a695345c3139953c4e75fc0636121a3b@30.124.14.231:26656~~ <br/>
+		>	export SENTRY_NODE_IDS=~~234d17ad72695c3139953c4e75fc0636121a3b@3.134.44.201:26656,1231e234a695345c3139953c4e75fc0636121a3b@30.124.14.231:26656~~ <br/>
 		> <br/>
 		> <br/>
 		> <br/>
