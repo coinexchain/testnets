@@ -80,7 +80,7 @@
 
 ##### 下载新版本节点
 
->	export ARTIFACTS_BASE_URL=https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test-upgrade <br/>
+>	export ARTIFACTS_BASE_URL=`https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test-upgrade` <br/>
 >	export CETD_URL=${ARTIFACTS_BASE_URL}/linux_x86_64/cetd <br/>
 >	export CETCLI_URL=${ARTIFACTS_BASE_URL}/linux_x86_64/cetcli <br/>
 >	export GENESIS_URL=${ARTIFACTS_BASE_URL}/genesis.json <br/>
@@ -105,6 +105,10 @@
 
 > ${RUN_DIR}/cetd init moniker --chain-id=coinexdex2 --home=${RUN_DIR}/.cetd <br/>
 > cp ${RUN_DIR}/genesis.json ${RUN_DIR}/.cetd/config <br/>
+ 
+<br/>
+<br/>
+<br/>
 
 ## 节点运行
 
