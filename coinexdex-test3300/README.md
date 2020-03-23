@@ -14,6 +14,7 @@
 > export GENESIS_URL=`${ARTIFACTS_BASE_URL}/genesis.json` <br/>
 > export SHA256_CHECKSUM_URL=`${ARTIFACTS_BASE_URL}/sha256.sum` <br/>
 > export CETD_SERVICE_CONF_URL=${ARTIFACTS_BASE_URL}/cetd.service.example <br/>
+> export CHECK_SH=${ARTIFACTS_BASE_URL}/dex2_check.sh <br/>
 > export RUN_DIR=~~/home/ubuntu/test-node~~ <br/>
 >  <br/> 
 > <br/>
@@ -22,6 +23,7 @@
 > cd `${RUN_DIR}` <br/>
 > curl `${CETD_URL}` >  cetd <br/>
 > curl `${CETCLI_URL}` > cetcli <br/>
+> curl `${CHECK_SH}` > dex2_check.sh <br/>
 > curl `${GENESIS_URL}` > genesis.json <br/>
 > curl ${CETD_SERVICE_CONF_URL} > cetd.service.example <br/>
 > chmod a+x cetd cetcli <br/>
@@ -39,7 +41,9 @@
 
    *    `ansible localhost -m ini_file -a "path=${RUN_DIR}/.cetd/config/config.toml section=p2p option=seeds value='\"${CHAIN_SEEDS}\"' backup=true"`
    *   [ansible安装文档](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-ubuntu)
-
+5. 验证可执行程序、genesis.json
+   
+   *  `bash dex2_check.sh `
 
     
 ## 启动新节点    
