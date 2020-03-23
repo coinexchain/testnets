@@ -56,4 +56,11 @@
 
 新链继续延续旧链的高度，第一个块从**4159706**开始。
 
+## 工具
+
+可以使用`dex2_check.sh`脚本检查自己的新节点环境：
+```bash
+wget ${ARTIFACTS_BASE_URL}/dex2_check.sh
+bash dex2_check.sh
+```
 
