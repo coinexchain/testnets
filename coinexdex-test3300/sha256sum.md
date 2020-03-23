@@ -1,0 +1,5 @@
+8176f898f3e4b3c6288a20f47cebc29bef5e70ff4bf603cf9d30bbd2d96fcf10  linux_x86_64/cetcli
+
+8174452baafcbd8ccac282a28aec7f03c5dd72970ecb86c102ce7d0274c6a3ff  linux_x86_64/cetd
+
+dea9f85f0549031d2d14b46e77ad4c4de5d153759afab548766ab95605e129ff  genesis.json
