@@ -11,6 +11,7 @@
 > export ARTIFACTS_BASE_URL=`https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test-upgrade` <br/>
 > export CETD_URL=`${ARTIFACTS_BASE_URL}/linux_x86_64/cetd` <br/>
 > export CETCLI_URL=`${ARTIFACTS_BASE_URL}/linux_x86_64/cetcli` <br/>
+> export CHECK_SH=${ARTIFACTS_BASE_URL}/dex2_check.sh <br/>
 > export GENESIS_URL=`${ARTIFACTS_BASE_URL}/genesis.json` <br/>
 > export SHA256_CHECKSUM_URL=`${ARTIFACTS_BASE_URL}/sha256.sum` <br/>
 > export CETD_SERVICE_CONF_URL=${ARTIFACTS_BASE_URL}/cetd.service.example <br/>
@@ -22,6 +23,7 @@
 > cd `${RUN_DIR}` <br/>
 > curl `${CETD_URL}` >  cetd <br/>
 > curl `${CETCLI_URL}` > cetcli <br/>
+> curl `${CHECK_SH}` > dex2_check.sh
 > curl `${GENESIS_URL}` > genesis.json <br/>
 > curl ${CETD_SERVICE_CONF_URL} > cetd.service.example <br/>
 > chmod a+x cetd cetcli <br/>
@@ -39,6 +41,8 @@
 
    *    `ansible localhost -m ini_file -a "path=${RUN_DIR}/.cetd/config/config.toml section=p2p option=seeds value='\"${CHAIN_SEEDS}\"' backup=true"`
    *   [ansible安装文档](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-ubuntu)
+5. 验证可执行程序、genesis.json
+   *  `bash dex2_check.sh`
 
 
     
@@ -54,13 +58,6 @@
 
 ## 新链高度
 
-新链继续延续旧链的高度，第一个块从**4159706**开始。
+新链继续延续旧链的高度，第一个块从**5159706**开始。
 
-## 工具
-
-可以使用`dex2_check.sh`脚本检查自己的新节点环境：
-```bash
-wget ${ARTIFACTS_BASE_URL}/dex2_check.sh
-bash dex2_check.sh
-```
 
