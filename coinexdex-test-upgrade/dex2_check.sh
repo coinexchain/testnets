@@ -83,3 +83,5 @@ ADDR=$(cat .cetd/config/priv_validator_key.json | grep address | grep -o ": .*" 
 echo "Node Name: ${nodeNameByAddr[$ADDR]}"
 
 cat .cetd/config/config.toml | grep log_level
+
+ansible --version
