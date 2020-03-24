@@ -6,7 +6,7 @@
 
 
 ## 下载新版本
-> export CHAIN_SEEDS=a441859e2b3c746c686dca59e9df0f9097ffe596@18.144.85.87:26656  <br/>
+> export CHAIN_SEEDS=dde8fe3cae5f0c0bb66c8f3f8dd609f7a8832e27@18.144.85.87:26656  <br/>
 > export ARTIFACTS_BASE_URL=`https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test-upgrade` <br/>
 > export CETD_URL=`${ARTIFACTS_BASE_URL}/linux_x86_64/cetd` <br/>
 > export CETCLI_URL=`${ARTIFACTS_BASE_URL}/linux_x86_64/cetcli` <br/>
@@ -22,7 +22,7 @@
 > cd `${RUN_DIR}` <br/>
 > curl `${CETD_URL}` >  cetd <br/>
 > curl `${CETCLI_URL}` > cetcli <br/>
-> curl `${CHECK_SH}` > dex2_check.sh
+> curl `${CHECK_SH}` > dex2_check.sh <br/>
 > curl `${GENESIS_URL}` > genesis.json <br/>
 > curl ${CETD_SERVICE_CONF_URL} > cetd.service.example <br/>
 > chmod a+x cetd cetcli <br/>
