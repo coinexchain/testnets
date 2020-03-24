@@ -18,7 +18,7 @@
 	*  进行如下配置
 		> 	export RUN_DIR=~~/home/ubuntu/node~~ <br/>
 		>	export VALIDATOR_ID=~~234d17ad72695c3139953c4e75fc0636121a3b@3.134.44.201:26656~~ <br/>
-		>	export CHAIN_SEEDS=523c3b81017a3f053bc9cec0cc20bcf3895bd9c0@18.144.85.87:26656 <br/>
+		>	export CHAIN_SEEDS=1ee9c5508c7f5515d8ce00cbc2421f83ed9afeca@18.144.85.87:26656 <br/>
 		> <br/>
 		> <br/>
 		> <br/>
