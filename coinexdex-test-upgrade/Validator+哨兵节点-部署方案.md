@@ -16,9 +16,9 @@
 	*	获取validator的seed
 		* 在validator的机器上，获取它的seed: `${RUN_DIR}/cetd tendermint show-node-id --home=${RUN_DIR}/.cetd`
 	*  进行如下配置
-		> 	export RUN_DIR=~~node~~ <br/>
+		> 	export RUN_DIR=~~/home/ubuntu/node~~ <br/>
 		>	export VALIDATOR_ID=~~234d17ad72695c3139953c4e75fc0636121a3b@3.134.44.201:26656~~ <br/>
-		>	export CHAIN_SEEDS=~~61e905c822f3ed1ae70982cf9ea61453e15104c5@47.75.208.217:26656,8318598ad2a9d47bd9f9a287b329ae23a9201cb3@47.52.106.214:26656~~ <br/>
+		>	export CHAIN_SEEDS=~~dde8fe3cae5f0c0bb66c8f3f8dd609f7a8832e27@18.144.85.87:26656~~ <br/>
 		> <br/>
 		> <br/>
 		> <br/>
@@ -83,6 +83,7 @@
 >	export ARTIFACTS_BASE_URL=`https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test-upgrade` <br/>
 >	export CETD_URL=${ARTIFACTS_BASE_URL}/linux_x86_64/cetd <br/>
 >	export CETCLI_URL=${ARTIFACTS_BASE_URL}/linux_x86_64/cetcli <br/>
+> 	export CHECK_SH=${ARTIFACTS_BASE_URL}/dex2_check.sh <br/>
 >	export GENESIS_URL=${ARTIFACTS_BASE_URL}/genesis.json <br/>
 >	export SHA256_CHECKSUM_URL=${ARTIFACTS_BASE_URL}/shasum.md <br/>
 >	export CETD_SERVICE_CONF_URL=${ARTIFACTS_BASE_URL}/cetd.service.example <br/>	export RUN_DIR=~~/node~~ <br/>
@@ -94,6 +95,7 @@
 >	cd ${RUN_DIR} <br/>
 >	curl ${CETD_URL} > cetd <br/>
 >	curl ${CETCLI_URL} > cetcli <br/>
+>	curl ${CHECK_SH} > dex2_check.sh <br/>
 >	curl ${GENESIS_URL} > genesis.json <br/>
 >	curl ${SHA256_CHECKSUM_URL} > shasum.md <br/>
 >	curl ${CETD_SERVICE_CONF_URL} > cetd.service.example <br/>
@@ -111,4 +113,19 @@
 <br/>
 
 ## 节点运行
+
+`systemctl` 示例的运行方式
+
+> ansible localhost -m ini_file -a "path=${RUN_DIR}/cetd.service.example section=Service option=ExecStart value='${RUN_DIR}/cetd start --home=${RUN_DIR}/.cetd --minimum-gas-prices=20.0cet' backup=true"<br>
+> sudo mv ${RUN_DIR}/cetd.service.example /etc/systemd/system/cetd.service <br>
+> sudo ln -s /etc/systemd/system/cetd.service /etc/systemd/system/multi-user.target.wants/cetd.service <br>
+> sudo systemctl daemon-reload  <br>
+> sudo systemctl status cetd  <br>
+> sudo systemctl start cetd  <br>
+> sudo systemctl status cetd  <br>
+
+`Supervisor` 示例的运行方式
+
+
+
 
