@@ -14,6 +14,7 @@
 > export GENESIS_URL=`${ARTIFACTS_BASE_URL}/genesis.json` <br/>
 > export SHA256_CHECKSUM_URL=`${ARTIFACTS_BASE_URL}/sha256.sum` <br/>
 > export CETD_SERVICE_CONF_URL=${ARTIFACTS_BASE_URL}/cetd.service.example <br/>
+> export PUBLIC_IP=~~123.36.28.137~~ <br/>
 > export RUN_DIR=~~/home/ubuntu/test-node~~ <br/>
 >  <br/> 
 > <br/>
@@ -40,7 +41,10 @@
 
    *    `ansible localhost -m ini_file -a "path=${RUN_DIR}/.cetd/config/config.toml section=p2p option=seeds value='\"${CHAIN_SEEDS}\"' backup=true"`
    *   [ansible安装文档](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-ubuntu)
-5. 验证可执行程序、genesis.json
+5. 设置节点的对外IP
+
+	*	`ansible localhost -m ini_file -a "path=${RUN_DIR}/.cetd/config/config.toml section=p2p option=external_address value='\"tcp://${PUBLIC_IP}:26656\"' backup=true"`
+6. 验证可执行程序、genesis.json
    *  `bash dex2_check.sh`
 
 

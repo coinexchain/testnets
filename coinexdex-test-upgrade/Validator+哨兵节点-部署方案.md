@@ -17,6 +17,7 @@
 		* 在validator的机器上，获取它的seed: `${RUN_DIR}/cetd tendermint show-node-id --home=${RUN_DIR}/.cetd`
 	*  进行如下配置
 		> 	export RUN_DIR=~~/home/ubuntu/node~~ <br/>
+		>  export PUBLIC_IP=~~123.36.28.137~~ <br/>
 		>	export VALIDATOR_ID=~~234d17ad72695c3139953c4e75fc0636121a3b@3.134.44.201:26656~~ <br/>
 		>	export CHAIN_SEEDS=1ee9c5508c7f5515d8ce00cbc2421f83ed9afeca@18.144.85.87:26656 <br/>
 		> <br/>
@@ -27,6 +28,7 @@
 		>	ansible localhost -m ini_file -a "path=${RUN_DIR}/.cetd/config/config.toml section=p2p option=persistent_peers value='\"${VALIDATOR_ID}\"' backup=true"	<br/>
 		>	ansible localhost -m ini_file -a "path=${RUN_DIR}/.cetd/config/config.toml section=p2p option=private_peer_ids value='\"${VALIDATOR_ID}\"' backup=true" <br/>
 		>	ansible localhost -m ini_file -a "path=${RUN_DIR}/.cetd/config/config.toml section=p2p option=addr_book_strict value='false' backup=true" <br/>
+		>	ansible localhost -m ini_file -a "path=${RUN_DIR}/.cetd/config/config.toml section=p2p option=external_address value='\"tcp://${PUBLIC_IP}:26656\"' backup=true"
 3. [节点运行](#节点运行)
 	
 
