@@ -6,7 +6,7 @@
 
 
 ## 下载新版本
-> export CHAIN_SEEDS=832574eac51b8033bbba556c48d059c880e7d939@3.134.208.169:26656,7a57c526fca62df81be23659d519961ce55f99ce@3.15.229.22:26656  <br/>
+> export CHAIN_SEEDS=9eb24a6c9e77615f25b2626b76ba5a4de82ea096@3.134.208.169:26656,3d72ef4389ecec8fa450b915cbe1780b18f14c28@3.15.229.22:26656  <br/>
 > export ARTIFACTS_BASE_URL=`https://raw.githubusercontent.com/coinexchain/testnets/master/coinexdex-test3400` <br/>
 > export CETD_URL=`${ARTIFACTS_BASE_URL}/linux_x86_64/cetd` <br/>
 > export CETCLI_URL=`${ARTIFACTS_BASE_URL}/linux_x86_64/cetcli` <br/>
@@ -67,6 +67,6 @@
 
 ## 新链高度
 
-新链继续延续旧链的高度，第一个块从**4543965**开始。
+新链继续延续旧链的高度，第一个块从**4423629**开始。
 
 
