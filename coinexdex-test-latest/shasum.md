@@ -1,2 +1,0 @@
-5ccc43bfac0fa3331e49e0bc43fb24dba5b896f5  linux_x86_64/cetcli
-0324d7e6467477cd37afa6d4dababd4cc35ab31c  linux_x86_64/cetd
